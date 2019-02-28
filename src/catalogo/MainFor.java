@@ -2,13 +2,15 @@ package catalogo;
 
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class MainFor {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner leitor = new Scanner(System.in);
 		Scanner leitorNumero = new Scanner(System.in);
-
+		
 		for(int i = 0; i<2; i++) {
 			System.out.println("1 - Vinho \n2 - Rum");
 			String opt = leitor.next();
